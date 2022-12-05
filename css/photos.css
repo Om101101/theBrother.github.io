@@ -1,0 +1,365 @@
+/*---------------------------Nav-menu---------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  cursor: url(Wcursor.png),auto;
+}
+*{
+      font-family:serif;  
+    font-variant:small-caps;
+}
+.navbar{  
+     display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 22px;
+  padding: 10px 30px ;
+  background-color: rgb(0, 0, 0,0.9);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+/*---------------------------------------Logo editing------------------------*/
+.logo img{
+  float: left;
+    width: 100px;
+    height: 100px;
+     border-radius:80px;
+}
+/*-----------------------------menu aline-----------------------*/
+.nav-bar li{
+  display: inline-block;
+  padding: 10PX 20PX ;
+}
+/*------------------------------nav bar color---------------------------*/
+.nav-bar li a{
+  color: white;
+  transition: 0.6s;
+/*-----------------------------------nav bar hover editing------------------------*/
+}
+.nav-bar li a:hover{
+  color: crimson;
+  cursor:pointer;
+}
+/*------------------------------------------Images-1--------------------------------*/
+
+h6, p {
+  
+    font-family:serif;  
+    font-variant:small-caps;
+}
+
+.c-heroImageGrid {
+  position: relative;
+  overflow: hidden;
+  height: 50vw;
+  background: #fff;
+  margin-bottom: 60px;
+}
+
+.c-heroImageGrid .container {
+  display: flex;
+  align-items: flex-end;
+  position: absolute;
+  top: -20vw;
+  left: -8vw;
+  transform: rotateZ(45deg);
+  height: 100vw;
+  width: 107vw;
+}
+
+.c-heroImageGrid .container .column {
+  overflow: hidden;
+  position: relative;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1) {
+  border-right: 8px solid white;
+  width: 25%;
+  height: 66vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1):hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(1):before {
+  position: absolute;
+  top: 8.4vw;
+  left: 8.1vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateZ(-45deg);
+  content: "";
+  width: 37vw;
+  height: 38vw;
+  background-image: url(https://images.pexels.com/photos/132037/pexels-photo-132037.jpeg?cs=srgb&dl=beach-blur-boardwalk-132037.jpg&fm=jpg);
+}
+
+
+.c-heroImageGrid .container .column:nth-of-type(2) {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 75%;
+  height: 109.1vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row {
+  border-top: 8px solid #fff;
+}
+
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1) {
+  position: relative;
+  overflow: hidden;
+  height: 50vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(1):before {
+  position: absolute;
+  top: -10.1vw;
+  left: -14.3vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateZ(-45deg);
+  content: "";
+  width: 65vw;
+  height: 39vw;
+  background-image: url(https://images.pexels.com/photos/814499/pexels-photo-814499.jpeg?cs=srgb&dl=arch-bridge-clouds-814499.jpg&fm=jpg);
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) {
+  display: flex;
+  height: 40.5vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+  border-top: none;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) {
+  overflow: hidden;
+  width: 30%;
+  background-color: #8B8B8A;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+  transform: rotateZ(-45deg);
+  position: relative;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text h6 {
+  position: absolute;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.35vw;
+  width: 20vw;
+  top: 16vw;
+  left: 7vw;
+  line-height: 1.55vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(1) .text p {
+  text-align: right;
+  position: absolute;
+  color: #fff;
+  font-size: 0.9vw;
+  width: 18vw;
+  top: 23.5vw;
+  left: -3.5vw;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2) {
+  position: relative;
+  width: 70%;
+  border-left: 8px solid white;
+  overflow: hidden;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(2) div:nth-of-type(2):before {
+  position: absolute;
+  top: 0;
+  left: -40vw;
+  width: 110.1vw;
+  height: 110vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateZ(-45deg);
+  content: "";
+  background-image: url(https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg?cs=srgb&dl=adventure-calm-clouds-414171.jpg&fm=jpg);
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3) {
+  position: relative;
+  height: 18.6vw;
+  overflow: hidden;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.c-heroImageGrid .container .column:nth-of-type(2) .row:nth-of-type(3):before {
+  position: absolute;
+  top: 7.5vw;
+  left: 25vw;
+  width: 33vw;
+  height: 27vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotateZ(-45deg);
+  content: "";
+  background-image: url(https://images.unsplash.com/photo-1518098268026-4e89f1a2cd8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+}
+/*------------------------images-2----------------------------*/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:700);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+header {
+  width: 100%;
+  background-color: #77cdb4;
+  text-align: center;
+}
+
+h1 {
+  font-family:serif;  
+    font-variant:small-caps;
+  color: #FFF;
+  font-size: 2.3em;
+}
+
+
+
+.wrapper {
+  width: 40%;
+  margin: 40px auto;
+}
+
+div.gallery {
+  margin-top: 30px;
+}
+
+div.gallery ul {
+  list-style-type: none;
+  margin-left: 35px;
+}
+
+/* animation */
+div.gallery ul li, div.gallery li img {
+  -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+div.gallery ul li {
+  position: relative;
+  float: left;
+  width: 130px;
+  height: 130px;
+  margin: 5px;
+  padding: 5px;
+  z-index: 0;
+}
+
+/* Make sure z-index is higher on hover */
+/* Ensure that hover image overlapped the others */
+div.gallery ul li:hover {
+  z-index: 5;
+}
+
+/* Image is position nicely under li */
+div.gallery ul li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: 1px solid #dddddd;
+  padding: 5px;
+  width: 130px;
+  height: 130px;
+  background: #f0f0f0;
+}
+
+div.gallery ul li img:hover {
+  width: 200px;
+  height: 200px;
+  margin-top: -130px;
+  margin-left: -130px;
+  top: 65%;
+  left: 65%;
+}
+
+p.attribution {
+  font-family: 'Consolas';
+  color: #000;
+  clear: both;
+  text-align: center;
+  line-height: 25px;
+  padding-top: 30px;
+}
+
+p.attribution a {
+  color: #4c8d7c;
+}
+
+/* Responsive hack */
+@media only screen and (min-width: 499px) and (max-width: 1212px) {
+  .wrapper {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 498px) {
+  .wrapper {
+    width: 300px;
+  }
+
+  div.gallery ul {
+    list-style-type: none;
+    margin: 0;
+  }
+}
+
+
+
+
+
+

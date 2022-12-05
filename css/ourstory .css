@@ -1,0 +1,104 @@
+/*---------------------------Nav-menu---------------------------------*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	text-decoration: none;
+	;
+
+}
+*{
+		  font-family:serif;  
+	  font-variant:small-caps;
+}
+.navbar{  
+	display: flex;
+	justify-content: space-between;
+	font-size: 3vh;
+	padding: 10px 30px ;
+	background-color: rgb(0, 0, 0,0.9);
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+/*---------------------------------------Logo editing------------------------*/
+.logo img{
+	float: left;
+  	width: 100px;
+  	height: 100px;
+  	 border-radius:80px;
+}
+/*-----------------------------menu aline-----------------------*/
+.nav-bar li{
+	display: inline-block;
+	padding: 10PX 20PX ;
+}
+/*------------------------------nav bar color---------------------------*/
+.nav-bar li a{
+	color: white;
+	transition: 0.6s;
+/*-----------------------------------nav bar hover editing------------------------*/
+}
+.nav-bar li a:hover{
+	color: crimson;
+	cursor:pointer;
+}
+/*-----------------main-head backgroundimage-----------*/
+.main-head{
+	background-image: url(os.jpg);
+	height: 108vh;
+	background-size: cover;
+	background-position: center;
+	background-color: rgb(0, 0, 0,0.7);
+}
+.baaner-text{
+	top: 50;
+	left: 20vh;
+	position: absolute;
+	color: black;
+	line-height: 1.5;
+	letter-spacing: 2px;
+}
+.baaner-text h1{
+    font-size:66px  ;
+}
+.baaner-text h2{
+	font-size: 40px;
+}
+.baaner-text span:hover{
+	color:darkgoldenrod;
+
+}
+.colorchange{
+	animation: colorchangeResturant 5s infinite;
+}
+@keyframes  colorchangeResturant{
+	0%{ color:#00dbde; }
+	25%{color:#fc00ff;}
+	50%{color:#e14fad;}
+	100%{color:#f9d423 }
+}
+/*------------------------Our-story-content---------------------*/
+.content{
+	position: absolute;
+	top: 45vh;
+	left: 5vh;
+	width: 90vh;
+	justify-content: space-between;
+}
+.content h1{
+ font-size: 6vh;
+}
+.content p{
+	font-size: 3vh;
+}
+.abc{
+	position: absolute;
+	bottom: 0;
+	right: 65vh;
+	top: 45vh;
+	width: 10%;
+	height: 10%;
+}
+	
